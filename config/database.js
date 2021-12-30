@@ -9,7 +9,9 @@ module.exports = ({ env }) => ({
     useNullAsDefault: true,
   },
 }); */
+// const parse = require('connection-string');
 
+// const { host, port, database, user, password } = parse(env("DATABASE_URL"));
 module.exports = ({ env }) => ({
   connection: {
     client: 'postgres',
