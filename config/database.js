@@ -1,4 +1,4 @@
-const path = require('path');
+/* const path = require('path');
 
 module.exports = ({ env }) => ({
   connection: {
@@ -8,9 +8,8 @@ module.exports = ({ env }) => ({
     },
     useNullAsDefault: true,
   },
-});
+}); */
 
-/* Original
 module.exports = ({ env }) => ({
   connection: {
     client: 'postgres',
@@ -24,4 +23,3 @@ module.exports = ({ env }) => ({
     },
   },
 });
-*/
