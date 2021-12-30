@@ -10,7 +10,7 @@ module.exports = ({ env }) => {
       host,
       port,
       database,
-      username: user,
+      user: user,
       password,
     },
   };
