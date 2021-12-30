@@ -6,17 +6,12 @@ module.exports = ({ env }) => {
   return {
     defaultConnection: "default",
     connections: {
-      default: {
-        connector: "bookshelf",
-        settings: {
-          client: "postgres",
-          host,
-          port,
-          database,
-          username: user,
-          password,
-        },
-      },
+      client: "postgres",
+      host,
+      port,
+      database,
+      username: user,
+      password,
     },
   };
 };
