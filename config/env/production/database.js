@@ -5,7 +5,7 @@ module.exports = ({ env }) => {
 
   return {
     defaultConnection: "default",
-    connections: {
+    connection: {
       client: "postgres",
       host,
       port,
